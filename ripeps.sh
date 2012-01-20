@@ -28,7 +28,7 @@
 # Start configurations
 
 dvdDevice="/dev/sr0" # Where your DVD Device is
-videoDirectory="/home/mike/Videos/TV Shows/" # Where stuff is saved
+videoDirectory="~/Videos/TV Shows/" # Where stuff is saved
 # Various options for HandBrake
 x264Opts="ref=2:bframes=2:subme=6:mixed-refs=0:weightb=0:8x8dct=0:trellis=0"
 picOpts="--crop --strict-anamorphic --vfr -9 -5 -q 19"
@@ -125,7 +125,6 @@ for ((i=0; i<$maxTitles; i++)); do
    subString "${subtitles}"
 
    options="${picOpts} ${audioOpts} -e x264 -x ${x264Opts} -a ${audioTracks} -s ${subTracks} -t ${titles[${i}]} -i ${dvdDevice} -o ${title}.S`printf "%02d" ${season}`E`printf "%02d" ${episode}`.mkv"
-   echo ${options}
    HandBrakeCLI ${options}
 
    # Clean up
