@@ -1,0 +1,7 @@
+run ripeps.sh
+follow what it tells you
+
+Requirements: 
+ HandBrake (with CLI)
+ lsdvd
+

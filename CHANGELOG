@@ -1,0 +1,57 @@
+Version 1.4
+Date: 01/20/2012
+---
+Michael Cook
+
+ADDITIONS:
+Added ability to pass an iso or folder containing VIDEO_TS
+Doesn't play nicely with spaces right now
+
+BONUS:
+I think Blu-ray isos/dumps will just work, no testing though
+===
+Version 1.3
+Date: 01/08/2012
+---
+Michael Cook
+
+Changed some options and updated things.
+
+===
+Version 1.2
+Date: 05/14/2010
+---
+Michael Cook
+
+ADDITIONS:
+Now fetches subtitles too
+
+FIXES:
+Removed some redundancy.
+
+TODO:
+Clean up still I guess.
+
+===
+Version: 1.1
+Date: 05/14/2010
+---
+Michael Cook
+
+FIXES:
+Fixed audio streams, it now automatically detects all
+of the streams and include them.
+
+TODO:
+I want to clean up the code some, maybe some more
+autodetecting.
+
+===
+Version: 1.0 
+Date: 05/14/2010
+---
+Michael Cook
+
+Initial release.
+
+
